@@ -40,7 +40,7 @@ def can_be_created_in_a_block(args=nil)
 end
 
 def can_get_the_first_item_in_the_database
-  Movie.read(1)
+  Movie.read.first
 end
 
 def can_get_the_last_item_in_the_database
