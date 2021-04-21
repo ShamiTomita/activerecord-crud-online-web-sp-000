@@ -33,7 +33,8 @@ def can_be_created_in_a_block(args=nil)
       m.title = "Home Alone"
       m.release_date = 1990
     else 
-      m.t
+      m.title = args[0]
+      m.release_date = args[1]
     end 
   end
 end
